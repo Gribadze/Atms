@@ -1,7 +1,3 @@
-set tabstop=2
-set softtabstop=2
-set shiftwidth=4
-set noexpandtab
 set colorcolumn=100
 highlight ColorColumn ctermbg=darkgray
 augroup project

@@ -1,6 +1,11 @@
 #include <iostream>
+#include "Atm.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Atm a;
+    std::cout << a.getStatus() << std::endl;
+    a.toggleState();
+    std::cout << a.getStatus() << std::endl;
+    
     return 0;
 }
