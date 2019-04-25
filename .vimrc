@@ -5,6 +5,6 @@ augroup project
 		autocmd BufRead,BufNewFile *.h,*.c set filetype=c.doxygen
 augroup END
 let &path.="./include"
-set makeprg=make\ -C\ ./build\ -j9
+set makeprg=make\ -f\ ../Makefile\ -C\ ./build\ -j9
 nnoremap <F4> :make!<CR>
-nnoremap <F5> :!./bin/hello<CR>
+nnoremap <F5> :!./bin/atms<CR>

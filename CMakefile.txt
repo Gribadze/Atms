@@ -1,0 +1,4 @@
+cmake_minimum_require(VERSION 3.14)
+project(Atms)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../bin)
+add_executable(atms src/main.cpp src/Atm.cpp src/Async.cpp src/EventLoop.cpp)
